@@ -1,0 +1,196 @@
+.container {
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #012e57;
+    min-height: 41px;
+    width: 100%;
+  }
+  
+  .viewPatientWrapper {
+    display: flex;
+    gap: 12px;
+    color: #000;
+    margin: 33px 0 0 26px;
+    font: 500 20px Inter, sans-serif;
+  }
+  
+  .icon {
+    aspect-ratio: 1.27;
+    object-fit: contain;
+    object-position: center;
+    width: 19px;
+    align-self: start;
+    margin-top: 4px;
+  }
+  
+  .viewPatient {
+    flex-basis: auto;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 41px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px 0 5px;
+    font: 400 20px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .patientInfoWrapper {
+    display: flex;
+    gap: 20px;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-weight: 500;
+    justify-content: space-between;
+  }
+  
+  .patientInfo {
+    width: 257px;
+  }
+  
+  .patientName {
+    color: #012e57;
+  }
+  
+  .patientId {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  .patientImage {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 39px;
+  }
+  
+  .goalCard {
+    border-radius: 30px;
+    background-color: #012e57;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: end;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin: 71px 0 0 20px;
+    padding: 4px 28px 38px 61px;
+  }
+  
+  .goalReached {
+    align-self: center;
+  }
+  
+  .goalImage {
+    aspect-ratio: 1.79;
+    object-fit: contain;
+    object-position: center;
+    width: 68px;
+    border-radius: 4px;
+    margin-top: 14px;
+  }
+  
+  .goalProgress {
+    display: flex;
+    margin-top: 12px;
+    width: 192px;
+    max-width: 100%;
+    gap: 20px;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  
+  .goalPercentage {
+    align-self: start;
+  }
+  
+  .patientDetails {
+    color: rgba(17, 111, 44, 0.3);
+    align-self: start;
+    margin: 38px 0 0 13px;
+  }
+  
+  .detailValue {
+    font-size: 16px;
+    color: #056b59;
+  }
+  
+  .medicalHistoryWrapper {
+    align-self: center;
+    display: flex;
+    margin-top: 48px;
+    width: 100%;
+    max-width: 257px;
+    gap: 30px;
+    font-size: 16px;
+  }
+  
+  .medicalHistoryLabel {
+    color: #000;
+    flex-grow: 1;
+    width: 83px;
+  }
+  
+  .medicalHistoryValue {
+    color: #056b59;
+    flex-grow: 1;
+    width: 102px;
+  }
+  
+  .footer {
+    background-color: #000;
+    display: flex;
+    margin-top: 143px;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 39px;
+  }
+  
+  .footerIcon {
+    aspect-ratio: 0.86;
+    object-fit: contain;
+    object-position: center;
+    width: 18px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .footerIconMedium {
+    aspect-ratio: 1.15;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .footerIconLarge {
+    aspect-ratio: 1.08;
+    object-fit: contain;
+    object-position: center;
+    width: 52px;
+    align-self: start;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
